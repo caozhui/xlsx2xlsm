@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name='xlsx2xlsm',
-    version='1.0',
+    version='1.2',
     packages=find_packages(),
     install_requires=[
-        # 任何依赖项都在这里列出
+        # 
     ],
     author='Zhui Cao',
     author_email='857330385@qq.com',

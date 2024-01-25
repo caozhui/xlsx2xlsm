@@ -77,7 +77,7 @@ def zip_folder(extract_folder_path, zip_file_name):
     print(f'The folder was successfully compressed to {zip_file_name} !')
 
 def xlsx2xlsm(xlsx_file_path, vba_path=None):
-    """Pass in the xlsx file path, optional vbaProject.bin path"""
+    """Input in the xlsx file path, optional vbaProject.bin path"""
     extract_folder_path = 'extracted_folder'
     unzip_folder(xlsx_file_path, extract_folder_path)
     handle_file(extract_folder_path, vba_path)
